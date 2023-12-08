@@ -1,0 +1,182 @@
+
+.header{
+    background-color: #82b1a1;
+    border: 7px solid black;
+    padding: 2px;
+    
+    margin: 2px ;
+}
+.photo{
+    width: 100px;
+    
+    height: 100px;
+    padding: 5px;
+    text-align: center;
+    
+}
+h1{
+    color: black;
+    text-align: center;
+    display: block;
+    
+    font-size: 50px;
+    font-family: 'BRoya';
+}
+h2{
+    color: black;
+    display:block;
+    text-align: center;
+    font-family: 'BRoya';
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    
+}
+h5{
+    font-size: 15px;
+    text-align: center;
+    
+}
+h3{
+    color: red;
+    text-align: center;
+    
+}
+*{
+    padding: 1px;
+    margin: 1px;
+}
+#div1{
+    background-color: lightgrey;
+    border: 5px solid #1e2e23 ;
+    float: right;
+   
+    color:black;
+    text-align: right;
+    font-size: large;
+    text-align: end;
+}
+#div2{
+    background-color: darkgray;
+    border: 5px solid #1e2e23 ;
+    height: 80vh;
+    float: right;
+    color:black;
+    text-align: right;
+    font-size: large;
+    text-align: end;
+
+}
+#div3{
+    background-color: lightgrey;
+    border: 5px solid #1e2e23 ;
+    float: left;
+    height: 80vh;
+    color:black;
+    text-align: right;
+    font-size: large;
+    text-align: end;
+
+}
+a.button{
+    display: inline-block;
+    padding: 0.6em 1.8em;
+    background-color:darkgray ;
+    color: black;
+    text-align: center;
+
+    text-decoration: none;
+    border-radius: 0.2em;
+   
+
+}
+a.button:hover{
+    background-color: lightgrey;
+    border-bottom-color:lightgrey ;
+    color: black;
+    text-decoration:underline;
+}
+
+@media only screen and (min-width:300px){
+    .col-s-1{width: 8.33%;}
+    .col-s-2{width: 16.66%;}
+    .col-s-3{width: 25%;}
+    .col-s-4{width: 33.33%;}
+    .col-s-5{width: 41.66%;}
+    .col-s-6{width: 46%;}
+    .col-s-7{width: 58.33%;}
+    .col-s-8{width: 74%;}
+    .col-s-9{width: 79%;}
+    .col-s-10{width: 79.33%;}
+    .col-s-11{width: 91.66%;}
+    .col-s-12{width: 97%;}
+}
+@media only screen and (min-width:769px){
+    .col-d-1{width: 14.8%;}
+    .col-d-2{width: 18%;}
+    .col-d-3{width: 22%;}
+    .col-d-4{width: 32.2%;}
+    .col-d-5{width: 41.66%;}
+    .col-d-6{width: 48.5%;}
+    .col-d-7{width: 58.33%;}
+    .col-d-8{width: 66.66%;}
+    .col-d-9{width: 75%;}
+    .col-d-10{width: 82.80%;}
+    .col-d-11{width: 91.66%;}
+    .col-d-12{width: 100%;}
+}
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 16px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  
+    text-decoration: none;
+    margin: 1rem .5rem;
+    width: 98%;
+    height: 20%;
+    justify-content: space-around;
+    justify-content: space-around;
+    background-color: #1e2e23;
+    box-shadow: 0px 2px 8px black;
+    color: white;
+    border: 1px solid #82b1a1;
+}
+.card:hover{
+    background-color: #82b1a1;
+    color: black;
+    border: 1px solid #1e2e23;
+}
+table {
+    border: 7px solid black;
+    border-collapse: collapse;
+  
+    text-align: center;
+
+}
+tr:nth-child(odd){
+    background-color: #82b1a1;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:90vh ;
+    text-align: center;
+}
+th{
+    font-size: larger;
+
+}
+img{
+   margin-right:15px ;
+   
+}
